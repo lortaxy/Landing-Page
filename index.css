@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.navbar,
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.link-h,
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    width: 110px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    gap: 400px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.hero {
+    display: flex;
+    padding: 90px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin-right: 50px;
+}
+
+.image {
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding: 48px;
+}
+
+.content {
+    padding-bottom: 150px;
+}
+
+
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bx {
+    border: solid;
+    border-color: #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+
+.signup-button {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+   
+}
+
+h3,
+.sada {
+    margin: 0;
+    color: white;
+}
+
+.signup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+}
